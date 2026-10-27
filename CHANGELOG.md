@@ -11,6 +11,7 @@ A new major version. Read [Migrating from legacy ringing](https://www.cometchat.
 - **Call waiting.** A call that arrives during another offers Decline (busy) or End & Accept.
 - **Automatic token registration.** The APNs and VoIP tokens are registered for the logged-in user and re-registered when they change.
 - **Ring readiness checks** and diagnostics for the conditions that silence calls.
+- **`defaultRingTimeoutMs`** sets how long a call rings when its push carries no timeout, and **`notificationContentModifier`** edits a chat notification before it is shown.
 - **Privacy manifests** in every framework.
 
 ### Changed
