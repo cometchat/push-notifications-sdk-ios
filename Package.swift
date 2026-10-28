@@ -50,22 +50,22 @@ let package = Package(
         .binaryTarget(
             name: "CometChatPushNotificationsSwift",
             url: "\(base)/CometChatPushNotificationsSwift-\(version).xcframework.zip",
-            checksum: "f3de5c9729efb35cba6b35e6618eaed67a66662bdfd10342355a0e4e789fc1c4"
+            checksum: "bea8b3a91aeef37a4a968e5e9bed3e059ceac6893fccad01bd71af5f5e91515b"
         ),
         .binaryTarget(
             name: "CometChatPushNotificationsChat",
             url: "\(base)/CometChatPushNotificationsChat-\(version).xcframework.zip",
-            checksum: "6d0a328dbe661dd5cb4620446e717df717d4d78348732ea8170ce2ce84152927"
+            checksum: "be28bb6751c873cda77c3515e3eea6ae045b99ac182134ae6d16282b287ea524"
         ),
         .binaryTarget(
             name: "CometChatPushNotificationsCallsCore",
             url: "\(base)/CometChatPushNotificationsCallsCore-\(version).xcframework.zip",
-            checksum: "d1cc3e4c149df9b5ff37f7658ab9241d7d5c0ed24bf119019ba11325c9b169d7"
+            checksum: "beec92409c23a4285d468d17c67cad6fde3fe4855dc9d441ddf378a047591ebe"
         ),
         .binaryTarget(
             name: "CometChatPushNotificationsCalls",
             url: "\(base)/CometChatPushNotificationsCalls-\(version).xcframework.zip",
-            checksum: "b008d6afd186fe8c44158babd3dca974b323586ed1d67b691e903baf2735cd00"
+            checksum: "3d614d1d5d8738afce562a49d4a0793c6235c82683f10f49d67a894c33cd852c"
         ),
         .target(
             name: "CometChatPushNotificationsChatDependencies",
