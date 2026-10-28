@@ -31,7 +31,7 @@ A calls-only app links the Calls product without the Chat SDK; a chat-only app l
 
 ## Installation
 
-The SDK ships as prebuilt binaries (xcframeworks).
+The SDK ships as prebuilt binaries (xcframeworks) through Swift Package Manager.
 
 ### Swift Package Manager
 
@@ -43,23 +43,9 @@ https://github.com/cometchat/push-notifications-sdk-ios.git
 
 choose version `2.0.0` (Up to Next Major), and add the products your app needs. The Chat and Calls SDKs are resolved for you.
 
-### CocoaPods
-
-```ruby
-platform :ios, '15.1'
-
-target 'YourApp' do
-  use_frameworks!
-  pod 'CometChatPushNotificationsChat', '~> 2.0'    # chat notifications
-  pod 'CometChatPushNotificationsCalls', '~> 2.0'   # incoming calls
-end
-```
-
-Each pod brings the Core pod, and the Chat SDK or Calls SDK it needs.
-
 ## Upgrading from 1.x
 
-The single `CometChatPushNotifications` pod and package product is replaced by the products above, and ringing now runs through the Calls SDK 5.1. See [iOS Push Notifications](https://www.cometchat.com/docs/notifications/ios-push-notifications-sdk) and [Migrating from legacy ringing](https://www.cometchat.com/docs/calls/ios/migrating-from-legacy-ringing). Version 1.x stays on the `v1` branch.
+The single `CometChatPushNotifications` product is replaced by the products above, and ringing now runs through the Calls SDK 5.1. See [iOS Push Notifications](https://www.cometchat.com/docs/notifications/ios-push-notifications-sdk) and [Migrating from legacy ringing](https://www.cometchat.com/docs/calls/ios/migrating-from-legacy-ringing). Version 1.x stays on the `v1` branch.
 
 ## Help and Support
 
